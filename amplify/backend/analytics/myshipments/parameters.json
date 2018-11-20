@@ -1,0 +1,11 @@
+{
+    "appName": "myshipments",
+    "roleName": "pinpointLambdaRole0404828f",
+    "cloudWatchPolicyName": "cloudWatchPolicy0404828f",
+    "pinpointPolicyName": "pinpointPolicy0404828f",
+    "authPolicyName": "pinpoint_amplify_0404828f",
+    "unauthPolicyName": "pinpoint_amplify_0404828f",
+    "authRoleName": "myhipments-20181110224403-authRole",
+    "unauthRoleName": "myhipments-20181110224403-unauthRole",
+    "IAMPrefix": "825917119234"
+}

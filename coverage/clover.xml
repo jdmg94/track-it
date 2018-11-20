@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1542686216071" clover="3.2.0">
+  <project timestamp="1542686216071" name="All files">
+    <metrics statements="121" coveredstatements="106" conditionals="15" coveredconditionals="9" methods="31" coveredmethods="27" elements="167" coveredelements="142" complexity="0" loc="121" ncloc="121" packages="5" files="7" classes="7">
+      <package name="containers.Home">
+        <metrics statements="31" coveredstatements="20" conditionals="5" coveredconditionals="3" methods="8" coveredmethods="5"/>
+        <file name="Home.ducks.js" path="/Users/JoseMunoz/myShipments/src/containers/Home/Home.ducks.js">
+          <metrics statements="17" coveredstatements="16" conditionals="5" coveredconditionals="3" methods="4" coveredmethods="4"/>
+          <line num="7" count="2" type="stmt"/>
+          <line num="8" count="2" type="stmt"/>
+          <line num="9" count="2" type="stmt"/>
+          <line num="10" count="2" type="stmt"/>
+          <line num="12" count="2" type="stmt"/>
+          <line num="17" count="2" type="cond" truecount="0" falsecount="1"/>
+          <line num="18" count="3" type="cond" truecount="3" falsecount="1"/>
+          <line num="21" count="2" type="stmt"/>
+          <line num="22" count="2" type="stmt"/>
+          <line num="24" count="2" type="stmt"/>
+          <line num="28" count="1" type="stmt"/>
+          <line num="29" count="1" type="stmt"/>
+          <line num="31" count="1" type="stmt"/>
+          <line num="34" count="0" type="stmt"/>
+          <line num="38" count="2" type="stmt"/>
+          <line num="39" count="2" type="stmt"/>
+          <line num="43" count="2" type="stmt"/>
+        </file>
+        <file name="Home.sagas.js" path="/Users/JoseMunoz/myShipments/src/containers/Home/Home.sagas.js">
+          <metrics statements="14" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="1"/>
+          <line num="23" count="1" type="stmt"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="26" count="0" type="stmt"/>
+          <line num="29" count="1" type="stmt"/>
+          <line num="30" count="0" type="stmt"/>
+          <line num="31" count="0" type="stmt"/>
+          <line num="32" count="0" type="stmt"/>
+          <line num="34" count="0" type="stmt"/>
+          <line num="38" count="1" type="stmt"/>
+          <line num="39" count="1" type="stmt"/>
+          <line num="40" count="0" type="stmt"/>
+          <line num="42" count="0" type="stmt"/>
+          <line num="44" count="0" type="stmt"/>
+          <line num="49" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="containers.Login">
+        <metrics statements="14" coveredstatements="13" conditionals="5" coveredconditionals="3" methods="4" coveredmethods="4"/>
+        <file name="Login.ducks.js" path="/Users/JoseMunoz/myShipments/src/containers/Login/Login.ducks.js">
+          <metrics statements="14" coveredstatements="13" conditionals="5" coveredconditionals="3" methods="4" coveredmethods="4"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="16" count="1" type="cond" truecount="0" falsecount="1"/>
+          <line num="17" count="3" type="cond" truecount="3" falsecount="1"/>
+          <line num="21" count="3" type="stmt"/>
+          <line num="22" count="3" type="stmt"/>
+          <line num="24" count="3" type="stmt"/>
+          <line num="27" count="0" type="stmt"/>
+          <line num="31" count="1" type="stmt"/>
+          <line num="36" count="1" type="stmt"/>
+          <line num="41" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="containers.Signup">
+        <metrics statements="20" coveredstatements="17" conditionals="5" coveredconditionals="3" methods="6" coveredmethods="5"/>
+        <file name="Signup.ducks.js" path="/Users/JoseMunoz/myShipments/src/containers/Signup/Signup.ducks.js">
+          <metrics statements="14" coveredstatements="13" conditionals="5" coveredconditionals="3" methods="4" coveredmethods="4"/>
+          <line num="7" count="2" type="stmt"/>
+          <line num="8" count="2" type="stmt"/>
+          <line num="9" count="2" type="stmt"/>
+          <line num="10" count="2" type="stmt"/>
+          <line num="12" count="2" type="stmt"/>
+          <line num="16" count="2" type="cond" truecount="0" falsecount="1"/>
+          <line num="17" count="3" type="cond" truecount="3" falsecount="1"/>
+          <line num="21" count="3" type="stmt"/>
+          <line num="22" count="3" type="stmt"/>
+          <line num="24" count="3" type="stmt"/>
+          <line num="26" count="0" type="stmt"/>
+          <line num="30" count="2" type="stmt"/>
+          <line num="35" count="2" type="stmt"/>
+          <line num="40" count="3" type="stmt"/>
+        </file>
+        <file name="Signup.sagas.js" path="/Users/JoseMunoz/myShipments/src/containers/Signup/Signup.sagas.js">
+          <metrics statements="6" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+          <line num="21" count="2" type="stmt"/>
+          <line num="22" count="2" type="stmt"/>
+          <line num="23" count="2" type="stmt"/>
+          <line num="25" count="1" type="stmt"/>
+          <line num="27" count="0" type="stmt"/>
+          <line num="32" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="graphql">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="queries.js" path="/Users/JoseMunoz/myShipments/src/graphql/queries.js">
+          <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="40" count="1" type="stmt"/>
+          <line num="83" count="1" type="stmt"/>
+          <line num="135" count="1" type="stmt"/>
+          <line num="194" count="1" type="stmt"/>
+          <line num="236" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="services">
+        <metrics statements="50" coveredstatements="50" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="13"/>
+        <file name="AfterShip.js" path="/Users/JoseMunoz/myShipments/src/services/AfterShip.js">
+          <metrics statements="50" coveredstatements="50" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="13"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="19" count="11" type="stmt"/>
+          <line num="20" count="2" type="stmt"/>
+          <line num="22" count="1" type="stmt"/>
+          <line num="23" count="1" type="stmt"/>
+          <line num="24" count="1" type="stmt"/>
+          <line num="25" count="1" type="stmt"/>
+          <line num="27" count="1" type="stmt"/>
+          <line num="30" count="1" type="stmt"/>
+          <line num="31" count="1" type="stmt"/>
+          <line num="32" count="1" type="stmt"/>
+          <line num="34" count="1" type="stmt"/>
+          <line num="37" count="1" type="stmt"/>
+          <line num="38" count="1" type="stmt"/>
+          <line num="39" count="1" type="stmt"/>
+          <line num="41" count="1" type="stmt"/>
+          <line num="44" count="1" type="stmt"/>
+          <line num="45" count="1" type="stmt"/>
+          <line num="46" count="1" type="stmt"/>
+          <line num="48" count="1" type="stmt"/>
+          <line num="51" count="1" type="stmt"/>
+          <line num="52" count="1" type="stmt"/>
+          <line num="53" count="1" type="stmt"/>
+          <line num="55" count="1" type="stmt"/>
+          <line num="58" count="1" type="stmt"/>
+          <line num="59" count="1" type="stmt"/>
+          <line num="60" count="1" type="stmt"/>
+          <line num="62" count="1" type="stmt"/>
+          <line num="65" count="1" type="stmt"/>
+          <line num="66" count="1" type="stmt"/>
+          <line num="67" count="1" type="stmt"/>
+          <line num="68" count="1" type="stmt"/>
+          <line num="70" count="1" type="stmt"/>
+          <line num="73" count="1" type="stmt"/>
+          <line num="74" count="1" type="stmt"/>
+          <line num="75" count="1" type="stmt"/>
+          <line num="77" count="1" type="stmt"/>
+          <line num="80" count="1" type="stmt"/>
+          <line num="81" count="1" type="stmt"/>
+          <line num="82" count="1" type="stmt"/>
+          <line num="84" count="1" type="stmt"/>
+          <line num="87" count="1" type="stmt"/>
+          <line num="88" count="1" type="stmt"/>
+          <line num="89" count="1" type="stmt"/>
+          <line num="91" count="1" type="stmt"/>
+          <line num="94" count="1" type="stmt"/>
+          <line num="95" count="1" type="stmt"/>
+          <line num="96" count="1" type="stmt"/>
+          <line num="98" count="1" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>

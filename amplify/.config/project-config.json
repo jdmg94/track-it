@@ -1,0 +1,20 @@
+{
+    "projectName": "myShipments",
+    "projectPath": "/Users/JoseMunoz/myShipments",
+    "defaultEditor": "atom",
+    "frontendHandler": {
+        "javascript": "/Users/JoseMunoz/.config/yarn/global/node_modules/amplify-frontend-javascript"
+    },
+    "javascript": {
+        "framework": "react-native",
+        "config": {
+            "SourceDir": "src",
+            "DistributionDir": "/",
+            "BuildCommand": "yarn build",
+            "StartCommand": "yarn start"
+        }
+    },
+    "providers": {
+        "awscloudformation": "/Users/JoseMunoz/.config/yarn/global/node_modules/amplify-provider-awscloudformation"
+    }
+}

@@ -1,0 +1,64 @@
+enum Tags {
+  Pending
+  InfoReceived
+  InTransit
+  OutForDelivery
+  AttemptFail
+  Delivered
+  Expired
+  Exception
+}
+
+type User @model {
+  id: ID!
+  first_name: String!
+  last_name: String!
+  email: String!
+  phone_number: String
+  trackings: [Tracking] @connection(name: "Trackings")
+}
+
+type Tracking @model {
+  id: ID!
+  active: Boolean!
+  title: String!
+  slug: String!
+  tag: Tags!
+  return_to_sender: Boolean!
+  tracking_number: String!
+  created_at: String!
+  updated_at: String!
+  customer_name: String
+  expected_delivery: String
+  origin_country_iso3: String!
+  shipment_package_count: Int!
+  shipment_weight: Float!
+  last_updated_at: String!
+  shipment_delivery_date: String
+  shipment_pickup_date: String
+  shipment_weight_unit: String!
+  subscribed_emails: [String]
+  subscribed_smses: [String]
+  signed_by: String
+  delivery_time: Int
+  owner: User @connection(name: "Trackings")
+  checkPoints: [Checkpoint] @connection(name: "Checkpoints")
+}
+
+type Checkpoint @model {
+  id: ID!
+  slug: String
+  city: String
+  state: String
+  zip: String
+  location: String
+  country_name: String
+  country_iso3: String
+  created_at: String!
+  message: String
+  tag: Tags
+  subtag: String
+  subtag_message: String!
+  checkpoint_time: String!
+  tracking: Tracking @connection(name: "Checkpoints")
+}

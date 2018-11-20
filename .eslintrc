@@ -1,0 +1,25 @@
+# @Author: JoseMunoz
+# @Date:   2018-11-07T10:41:47-06:00
+# @Last modified by:   JoseMunoz
+# @Last modified time: 2018-11-09T22:25:03-06:00
+  extends: [
+    'eslint:recommended',
+    'plugin:jest/recommended',
+    'airbnb'
+  ]
+  parser: 'babel-eslint'
+  plugins: ['jest']
+  env:
+    'jest/globals': true
+  rules:
+    'jest/valid-expect': 'off'
+    'react/jsx-filename-extension': 'off'
+    'arrow-parens': ['error', 'as-needed']
+    'object-curly-spacing': [
+      'error',
+      'always',
+      {
+        arraysInObjects: false,
+        objectsInObjects: false,
+      }
+    ]

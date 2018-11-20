@@ -1,0 +1,71 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "myhipments-20181110224403-authRole",
+			"UnauthRoleArn": "arn:aws:iam::825917119234:role/myhipments-20181110224403-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::825917119234:role/myhipments-20181110224403-authRole",
+			"Region": "us-west-2",
+			"DeploymentBucketName": "myhipments-20181110224403-deployment",
+			"UnauthRoleName": "myhipments-20181110224403-unauthRole",
+			"StackName": "myhipments-20181110224403",
+			"StackId": "arn:aws:cloudformation:us-west-2:825917119234:stack/myhipments-20181110224403/6bf66a60-e56c-11e8-af2e-06a411f6609a"
+		}
+	},
+	"api": {
+		"myshipments": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"securityType": "API_KEY",
+				"GraphQLAPIIdOutput": "ise34g5mjvcmlddrmictyra4d4",
+				"GraphQLAPIEndpointOutput": "https://au7x2hprqvbf7l3xiekyxzscji.appsync-api.us-west-2.amazonaws.com/graphql",
+				"GraphQLAPIKeyOutput": "da2-cwn4pg5rxvevpmgktvwaxk3tei"
+			},
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/myhipments-20181110224403-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+				"logicalId": "apimyshipments"
+			},
+			"lastPushTimeStamp": "2018-11-12T21:38:54.379Z",
+			"lastPushDirHash": "K53xW1wdY5WMX4lGmKDwsFLlqy4="
+		}
+	},
+	"auth": {
+		"cognitod1e80e20": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/myhipments-20181110224403-deployment/amplify-cfn-templates/auth/cognitod1e80e20-cloudformation-template.yml",
+				"logicalId": "authcognitod1e80e20"
+			},
+			"lastPushTimeStamp": "2018-11-12T21:38:54.393Z",
+			"output": {
+				"IdentityPoolId": "us-west-2:ff0ad325-8115-48f5-838c-717bc9ef4a2b",
+				"IdentityPoolName": "myshipments_identitypool_8bdea902",
+				"AppClientSecret": "ddkq1fqnak8gap7r7epsgh5t9n94qrvc58u3nvuu2q6erpk2hlj",
+				"UserPoolId": "us-west-2_6UAmUM3mY",
+				"AppClientIDWeb": "3eui2s60fg3bjf6t376lqae1gv",
+				"AppClientID": "5ppmdtopp0t5deite0h842o3n3",
+				"UserPoolName": "cognitod1e80e20_userpool_0fe8f47d"
+			},
+			"lastPushDirHash": "1uKyEqz2t+Wmq56B2/tHD68+YLU=",
+			"[object Object]": {}
+		}
+	},
+	"analytics": {
+		"myshipments": {
+			"service": "Pinpoint",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/myhipments-20181110224403-deployment/amplify-cfn-templates/analytics/pinpoint-cloudformation-template.json",
+				"logicalId": "analyticsmyshipments"
+			},
+			"lastPushTimeStamp": "2018-11-12T21:38:54.392Z",
+			"output": {
+				"appName": "myshipments",
+				"Region": "us-east-1",
+				"Id": "a2c23fba80914e358d11f514f29856c9"
+			},
+			"lastPushDirHash": "LzEdQ8sUvPp4tgDMTijwMptt+F0="
+		}
+	}
+}
