@@ -6,7 +6,7 @@
  */
 import axios from 'axios';
 
-const afterShipApiKey = 'b09eba93-ab46-42e7-b5fa-42b7534137b8';
+const afterShipApiKey = process.env.AFTERSHIP_KEY;
 const http = axios.create({
   baseURL: 'https://api.aftership.com/v4',
   timeout: 2000,
